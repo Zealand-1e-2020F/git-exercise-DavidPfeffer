@@ -5,7 +5,9 @@ namespace GitExercise
         string _name;
         string _addresse; 
         int _postnr;
-        public int MyProperty { get; set; }
+        public string MyProperty { get; set; }
+
+        public string By { get; set; }
         
         public myClass(string name, string addresse, int postnr)
         {
