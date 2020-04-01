@@ -7,7 +7,8 @@ namespace GitExercise
         int _postnr;
         
         public string By { get; set; }
-        
+
+               
         public myClass(string name, string addresse, int postnr)
         {
             _name = name;
